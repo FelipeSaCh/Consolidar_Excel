@@ -3,8 +3,8 @@ import pandas as pd
 
 def consolidar_excel():
     # Ruta de la carpeta con los archivos Excel
-    ruta_carpeta = r"C:\Users\pracmt\OneDrive - Gaseosas Postobon S.A\Escritorio\informes"
-    
+    ruta_carpeta = "" # RUTA DE LA CARPETA DONDE SE ENCUENTRAN LOS ARCHIVOS EXCEL
+
     # Verificar si la carpeta existe
     if not os.path.exists(ruta_carpeta):
         print(f"Error: La carpeta no existe: {ruta_carpeta}")
